@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Auth Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'DM Sans', sans-serif;
+      background-color: #2F1893;
+      display: flex;
+      justify-content: right;
+      align-items:center;
+       height: 750px;
+       width: 1400px;
+      color: #FFFFFF;
+      background-image: url('assets/contentbg.png');
+      background-repeat: no-repeat; 
+      background-size: cover;
+    }
+      /*.header {
+       width: 1400px;
+      height: 750px;
+       
+      background-color: #2F1893;
+           background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; 
+
+background-image: url('assets/contentbg.png');
+ 
+    }*/
+
+.title
+ {position: absolute;
+ 
+width: 369px;
+height: 318px;
+
+
+top: 216px;
+left: 216px;
+}
+
+    .auth-box {
+        position:absolute;
+      background-color: #FFFFFF;
+      color: #151439;
+      padding: 3rem;
+      border-radius: 16px;
+       
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+      text-align: center;
+       
+      width: 470px;
+      height: 550px;
+ 
+    
+    top: 50px;
+    left: 715px;
+     
+     
+
+    }
+
+    .auth-header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+    
+    }
+
+    .auth-tab {
+      background: none;
+      border: none;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #151439;
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+    }
+
+    .auth-tab.active {
+      color: #25DAC5;
+      border-bottom: 2px solid #25DAC5;
+    }
+
+    .auth-title {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+      color: #1E0E62;
+    }
+
+    .auth-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .auth-input {
+      padding: 0.75rem 1rem;
+      border: 1px solid #EBEAED;
+      border-radius: 8px;
+      font-size: 1rem;
+      /* Title */
+
+ 
+
+
+    }
+
+    .auth-button {
+      background-color: #25DAC5;
+      color: #FFFFFF;
+      border: none;
+      padding: 0.75rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .auth-description {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .auth-alt {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .twitter-login {
+      background-color: #1DA1F2;
+      color: #FFFFFF;
+      border: none;
+      padding: 0.75rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    /* Title */
+
+ 
+
+
+  </style>
+</head>
+<body>
+    <div class="title">
+        
+    <h2 >We solve digital problems with an outstanding creative flare</h2>
+ <p class="auth-description">
+      We have created a new product that will help designers, developers and companies create websites for their startups quickly and easily.
+    </p>
+    </div>
+  <div class="auth-box">
+    <div class="auth-header">
+      <button class="auth-tab active">Sign Up</button>
+      <button class="auth-tab">Login</button>
+    </div>
+
+    <form class="auth-form">
+      <input type="email" placeholder="Your email" class="auth-input" required>
+      <input type="password" placeholder="Your password" class="auth-input" required>
+      <button type="submit" class="auth-button">Create an Account</button>
+    </form>
+
+   
+
+    <div class="auth-alt">
+      <span>or</span>
+      <button class="twitter-login">Login via Twitter</button>
+    </div>
+  </div>
+</body>
+</html>
