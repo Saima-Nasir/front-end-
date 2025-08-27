@@ -9,7 +9,10 @@ opacity: 1;
   background-color: #2F1893;
   color: white;
 }
-
+.section 
+{
+ 
+}
 .header {
 
  
@@ -135,6 +138,8 @@ opacity: 1;
 .content-page
 {
 /* Title */
+ padding: 10px 10px;
+ margin-top: 80px ;
   background-image: url('assets/contentbg.png'); /* //url('your-image.jpg'); Replace with actual image path */
 
   background-size: cover;
@@ -424,3 +429,11 @@ body {
     max-width: 90%;
   }
 }
+
+
+
+
+
+
+
+
